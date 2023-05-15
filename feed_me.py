@@ -2,17 +2,17 @@ from textual.app import App, ComposeResult
 from textual.widgets import ListView, ListItem, Label
 
 class ListViewExample(App):
-    def set_paragraphs(self, paragraphs):
-        self.paragraphs = paragraphs
+    def set_items(self, items):
+        self.items = items
 
     def compose(self) -> ComposeResult:
         list_view = ListView()
-        for item in self.paragraphs:
+        for item in self.items:
             list_view.append(ListItem(Label(item)))
         yield list_view
 
 
-def show(paragraphs):
+def show(items):
     app = ListViewExample()
-    app.set_paragraphs(paragraphs)
+    app.set_items(items)
     app.run()
