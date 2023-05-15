@@ -20,4 +20,6 @@ python example.py
 
 # sources
 
-<https://textual.textualize.io/widgets/list_item/#example>
+- <https://textual.textualize.io/widgets/list_item/#example>
+- border example
+    - <https://textual.textualize.io/styles/border/>

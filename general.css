@@ -1,0 +1,11 @@
+ListItem {
+	layout: horizontal;
+	padding: 0 0;
+	margin: 1 0;
+	border: vkey white;
+	height: auto;
+}
+
+Label {
+	margin: 0 1;
+}
