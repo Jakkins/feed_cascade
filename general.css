@@ -5,7 +5,15 @@ ListItem {
 	border: vkey white;
 	height: auto;
 }
-
 Label {
 	margin: 0 1;
+}
+#vertical-layout {
+	layout: vertical;
+	height: auto;
+}
+
+#horizontal-layout {
+	layout: horizontal;
+	height: auto;
 }

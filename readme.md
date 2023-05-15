@@ -23,3 +23,9 @@ python example.py
 - <https://textual.textualize.io/widgets/list_item/#example>
 - border example
     - <https://textual.textualize.io/styles/border/>
+- list item
+    - <https://github.com/Textualize/textual/discussions/1840>
+- tutorial
+    - <https://dev.to/wiseai/textual-the-definitive-guide-part-1-1i0p>
+- layout
+    - <https://textual.textualize.io/styles/layout/#example>
